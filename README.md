@@ -34,6 +34,16 @@ To change or remove it later, right-click anything and choose **Search on Discog
 
 The token gives access to your Discogs account, so keep it to yourself. The extension stores it only on your computer, in Spotify's local storage, and sends it only to Discogs, and it only uses it to search.
 
+## Uninstall
+
+1. If you want the token gone too, remove it first: right-click anything, choose **Search on Discogs → Change Discogs Token**, and save an empty box. Uninstalling the extension doesn't delete it from Spotify. To stop the token working altogether, click **Delete Token** on [discogs.com/settings/developers](https://www.discogs.com/settings/developers).
+2. If you installed it from Marketplace, open Marketplace, find Search on Discogs and click **Remove**. If you installed it yourself, run:
+   ```
+   spicetify config extensions discogs-context.js-
+   spicetify apply
+   ```
+   The `-` at the end takes it off your extensions list. You can then delete `discogs-context.js` from your `Extensions` folder.
+
 ## Requirements
 
 Tested on Spotify 1.3.6 with Spicetify 2.46.
