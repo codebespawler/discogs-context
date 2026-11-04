@@ -1,0 +1,9 @@
+{
+    "name": "Search on Discogs",
+    "description": "Right-click a song, album or artist to open its master release, artist page or track on Discogs.",
+    "preview": "screenshots/preview.jpg",
+    "main": "discogs-context.js",
+    "readme": "README.md",
+    "authors": [{ "name": "codebespawler", "url": "https://github.com/codebespawler" }],
+    "tags": ["discogs", "context menu", "vinyl"]
+}
